@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (ptask_scheduler) JobQueued: {'identifier': 'ptask_scheduler', 'dependencies': OrderedDict()}
+[0.002734] (ptask_scheduler) JobStarted: {'identifier': 'ptask_scheduler'}
+[0.060863] (ptask_scheduler) JobProgress: {'identifier': 'ptask_scheduler', 'progress': 'cmake'}
+[0.060993] (ptask_scheduler) Command: {'cmd': ['/usr/bin/cmake', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler', '-DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler'], 'cwd': '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1849'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1805,unix/teja-VirtualBox:/tmp/.ICE-unix/1805'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c151fe7_b574_427d_be5b_f7ccab2876ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4ODJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098955] (-) TimerEvent: {}
+[0.199908] (-) TimerEvent: {}
+[0.301183] (-) TimerEvent: {}
+[0.401949] (-) TimerEvent: {}
+[0.503504] (-) TimerEvent: {}
+[0.587678] (ptask_scheduler) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.603755] (-) TimerEvent: {}
+[0.704634] (-) TimerEvent: {}
+[0.806502] (-) TimerEvent: {}
+[0.907303] (-) TimerEvent: {}
+[0.985559] (ptask_scheduler) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.007994] (-) TimerEvent: {}
+[1.022646] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.108152] (-) TimerEvent: {}
+[1.209370] (-) TimerEvent: {}
+[1.240039] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.260365] (ptask_scheduler) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.264548] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.274389] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.289148] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.310394] (-) TimerEvent: {}
+[1.412247] (-) TimerEvent: {}
+[1.493557] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.504783] (ptask_scheduler) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.505100] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.505822] (ptask_scheduler) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.512790] (-) TimerEvent: {}
+[1.533192] (ptask_scheduler) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.613101] (-) TimerEvent: {}
+[1.714039] (-) TimerEvent: {}
+[1.814555] (-) TimerEvent: {}
+[1.867544] (ptask_scheduler) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.914744] (-) TimerEvent: {}
+[2.015304] (-) TimerEvent: {}
+[2.117621] (-) TimerEvent: {}
+[2.128986] (ptask_scheduler) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.217889] (-) TimerEvent: {}
+[2.304551] (ptask_scheduler) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.318437] (-) TimerEvent: {}
+[2.319754] (ptask_scheduler) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.354255] (ptask_scheduler) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.409739] (ptask_scheduler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.418713] (-) TimerEvent: {}
+[2.470869] (ptask_scheduler) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.519505] (-) TimerEvent: {}
+[2.620252] (-) TimerEvent: {}
+[2.636913] (ptask_scheduler) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.647052] (ptask_scheduler) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.720821] (-) TimerEvent: {}
+[2.821804] (-) TimerEvent: {}
+[2.909066] (ptask_scheduler) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.922589] (-) TimerEvent: {}
+[2.957903] (ptask_scheduler) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.012374] (ptask_scheduler) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.023017] (-) TimerEvent: {}
+[3.043428] (ptask_scheduler) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.123598] (-) TimerEvent: {}
+[3.224017] (-) TimerEvent: {}
+[3.272979] (ptask_scheduler) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.286476] (ptask_scheduler) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.324266] (-) TimerEvent: {}
+[3.429093] (-) TimerEvent: {}
+[3.433189] (ptask_scheduler) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.435056] (ptask_scheduler) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.529452] (-) TimerEvent: {}
+[3.609517] (ptask_scheduler) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.630057] (-) TimerEvent: {}
+[3.732595] (-) TimerEvent: {}
+[3.764856] (ptask_scheduler) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.765299] (ptask_scheduler) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.765390] (ptask_scheduler) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.785582] (ptask_scheduler) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.794144] (ptask_scheduler) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.794363] (ptask_scheduler) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.797643] (ptask_scheduler) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.803455] (ptask_scheduler) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.816973] (ptask_scheduler) StdoutLine: {'line': b'-- Generating done\n'}
+[3.822361] (ptask_scheduler) StdoutLine: {'line': b'-- Build files have been written to: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler\n'}
+[3.835377] (ptask_scheduler) CommandEnded: {'returncode': 0}
+[3.838884] (-) TimerEvent: {}
+[3.839746] (ptask_scheduler) JobProgress: {'identifier': 'ptask_scheduler', 'progress': 'build'}
+[3.839792] (ptask_scheduler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler', '--', '-j2', '-l2'], 'cwd': '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1849'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1805,unix/teja-VirtualBox:/tmp/.ICE-unix/1805'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c151fe7_b574_427d_be5b_f7ccab2876ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4ODJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.939728] (-) TimerEvent: {}
+[3.952401] (ptask_scheduler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scheduler.dir/src/scheduler.cpp.o\x1b[0m\n'}
+[4.040392] (-) TimerEvent: {}
+[4.140798] (-) TimerEvent: {}
+[4.243803] (-) TimerEvent: {}
+[4.345312] (-) TimerEvent: {}
+[4.455476] (-) TimerEvent: {}
+[4.556160] (-) TimerEvent: {}
+[4.656507] (-) TimerEvent: {}
+[4.759866] (-) TimerEvent: {}
+[4.860872] (-) TimerEvent: {}
+[4.961917] (-) TimerEvent: {}
+[5.063865] (-) TimerEvent: {}
+[5.165540] (-) TimerEvent: {}
+[5.266036] (-) TimerEvent: {}
+[5.366593] (-) TimerEvent: {}
+[5.466976] (-) TimerEvent: {}
+[5.567679] (-) TimerEvent: {}
+[5.668299] (-) TimerEvent: {}
+[5.768662] (-) TimerEvent: {}
+[5.869464] (-) TimerEvent: {}
+[5.969757] (-) TimerEvent: {}
+[6.071366] (-) TimerEvent: {}
+[6.171780] (-) TimerEvent: {}
+[6.272406] (-) TimerEvent: {}
+[6.372773] (-) TimerEvent: {}
+[6.473379] (-) TimerEvent: {}
+[6.573869] (-) TimerEvent: {}
+[6.674855] (-) TimerEvent: {}
+[6.775591] (-) TimerEvent: {}
+[6.876112] (-) TimerEvent: {}
+[6.976654] (-) TimerEvent: {}
+[7.077550] (-) TimerEvent: {}
+[7.178426] (-) TimerEvent: {}
+[7.279041] (-) TimerEvent: {}
+[7.385517] (-) TimerEvent: {}
+[7.492785] (-) TimerEvent: {}
+[7.593532] (-) TimerEvent: {}
+[7.694958] (-) TimerEvent: {}
+[7.797526] (-) TimerEvent: {}
+[7.898372] (-) TimerEvent: {}
+[8.001628] (-) TimerEvent: {}
+[8.103463] (-) TimerEvent: {}
+[8.203971] (-) TimerEvent: {}
+[8.304724] (-) TimerEvent: {}
+[8.405350] (-) TimerEvent: {}
+[8.505863] (-) TimerEvent: {}
+[8.606723] (-) TimerEvent: {}
+[8.743402] (-) TimerEvent: {}
+[8.884113] (-) TimerEvent: {}
+[8.984520] (-) TimerEvent: {}
+[9.085147] (-) TimerEvent: {}
+[9.203028] (-) TimerEvent: {}
+[9.309861] (-) TimerEvent: {}
+[9.417671] (-) TimerEvent: {}
+[9.525462] (-) TimerEvent: {}
+[9.626545] (-) TimerEvent: {}
+[9.727278] (-) TimerEvent: {}
+[9.827929] (-) TimerEvent: {}
+[9.928555] (-) TimerEvent: {}
+[10.028987] (-) TimerEvent: {}
+[10.129736] (-) TimerEvent: {}
+[10.230287] (-) TimerEvent: {}
+[10.362403] (-) TimerEvent: {}
+[10.470897] (-) TimerEvent: {}
+[10.574751] (-) TimerEvent: {}
+[10.675052] (-) TimerEvent: {}
+[10.775615] (-) TimerEvent: {}
+[10.876390] (-) TimerEvent: {}
+[10.976972] (-) TimerEvent: {}
+[11.077812] (-) TimerEvent: {}
+[11.178441] (-) TimerEvent: {}
+[11.278772] (-) TimerEvent: {}
+[11.380472] (-) TimerEvent: {}
+[11.480947] (-) TimerEvent: {}
+[11.581367] (-) TimerEvent: {}
+[11.695047] (-) TimerEvent: {}
+[11.802021] (-) TimerEvent: {}
+[11.905347] (-) TimerEvent: {}
+[12.007266] (-) TimerEvent: {}
+[12.108468] (-) TimerEvent: {}
+[12.208891] (-) TimerEvent: {}
+[12.310467] (-) TimerEvent: {}
+[12.411879] (-) TimerEvent: {}
+[12.523523] (-) TimerEvent: {}
+[12.624436] (-) TimerEvent: {}
+[12.728048] (-) TimerEvent: {}
+[12.828581] (-) TimerEvent: {}
+[12.929349] (-) TimerEvent: {}
+[12.935652] (ptask_scheduler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scheduler\x1b[0m\n'}
+[13.030041] (-) TimerEvent: {}
+[13.137445] (-) TimerEvent: {}
+[13.239456] (-) TimerEvent: {}
+[13.285502] (ptask_scheduler) StdoutLine: {'line': b'[100%] Built target scheduler\n'}
+[13.331488] (ptask_scheduler) CommandEnded: {'returncode': 0}
+[13.342810] (-) TimerEvent: {}
+[13.454196] (-) TimerEvent: {}
+[13.457896] (ptask_scheduler) JobProgress: {'identifier': 'ptask_scheduler', 'progress': 'install'}
+[13.477870] (ptask_scheduler) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler'], 'cwd': '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1849'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1805,unix/teja-VirtualBox:/tmp/.ICE-unix/1805'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c151fe7_b574_427d_be5b_f7ccab2876ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4ODJV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/build/ptask_scheduler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.495686] (ptask_scheduler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.496511] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/lib/ptask_scheduler/scheduler\n'}
+[13.497967] (ptask_scheduler) StdoutLine: {'line': b'-- Set runtime path of "/home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/lib/ptask_scheduler/scheduler" to ""\n'}
+[13.499606] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ament_index/resource_index/package_run_dependencies/ptask_scheduler\n'}
+[13.499741] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ament_index/resource_index/parent_prefix_path/ptask_scheduler\n'}
+[13.500516] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/ament_prefix_path.sh\n'}
+[13.500910] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/ament_prefix_path.dsv\n'}
+[13.501865] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/path.sh\n'}
+[13.502932] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/path.dsv\n'}
+[13.503487] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.bash\n'}
+[13.506526] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.sh\n'}
+[13.506685] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.zsh\n'}
+[13.506770] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.dsv\n'}
+[13.507072] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/package.dsv\n'}
+[13.507441] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ament_index/resource_index/packages/ptask_scheduler\n'}
+[13.507584] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/cmake/ptask_schedulerConfig.cmake\n'}
+[13.512023] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/cmake/ptask_schedulerConfig-version.cmake\n'}
+[13.512195] (ptask_scheduler) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler/install/ptask_scheduler/share/ptask_scheduler/package.xml\n'}
+[13.513234] (ptask_scheduler) CommandEnded: {'returncode': 0}
+[13.554908] (-) TimerEvent: {}
+[13.655872] (-) TimerEvent: {}
+[13.681905] (ptask_scheduler) JobEnded: {'identifier': 'ptask_scheduler', 'rc': 0}
+[13.682250] (-) EventReactorShutdown: {}

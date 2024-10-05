@@ -1,0 +1,70 @@
+[0.092s] Invoking command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler -DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.360s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.561s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.580s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.855s] -- Detecting CXX compiler ABI info - done
+[0.855s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.855s] -- Detecting CXX compile features
+[0.855s] -- Detecting CXX compile features - done
+[0.856s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.131s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.251s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.297s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.298s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.384s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.396s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.636s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.710s] -- Looking for pthread.h
+[1.895s] -- Looking for pthread.h - found
+[1.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.068s] -- Found Threads: TRUE  
+[2.124s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.234s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.255s] -- Configured cppcheck include dirs: 
+[2.256s] -- Configured cppcheck exclude dirs and/or files: 
+[2.256s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.256s] -- Added test 'lint_cmake' to check CMake code style
+[2.256s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.256s] -- Added test 'uncrustify' to check C / C++ code style
+[2.257s] -- Configured uncrustify additional arguments: 
+[2.264s] -- Added test 'xmllint' to check XML markup files
+[2.264s] -- Configuring done
+[2.277s] -- Generating done
+[2.281s] -- Build files have been written to: /home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler
+[2.308s] Invoked command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/teja/ros2_humble/PTask_Scheduler/ptask_scheduler -DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler
+[2.309s] Invoking command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler -- -j2 -l2
+[2.422s] [ 50%] [32mBuilding CXX object CMakeFiles/scheduler.dir/src/scheduler.cpp.o[0m
+[6.784s] [100%] [32m[1mLinking CXX executable scheduler[0m
+[7.115s] [100%] Built target scheduler
+[7.191s] Invoked command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler -- -j2 -l2
+[7.455s] Invoking command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler
+[7.469s] -- Install configuration: ""
+[7.470s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/lib/ptask_scheduler/scheduler
+[7.471s] -- Set runtime path of "/home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/lib/ptask_scheduler/scheduler" to ""
+[7.471s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ament_index/resource_index/package_run_dependencies/ptask_scheduler
+[7.472s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ament_index/resource_index/parent_prefix_path/ptask_scheduler
+[7.473s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/ament_prefix_path.sh
+[7.474s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/ament_prefix_path.dsv
+[7.474s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/path.sh
+[7.474s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/environment/path.dsv
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.bash
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.sh
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.zsh
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/local_setup.dsv
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/package.dsv
+[7.477s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ament_index/resource_index/packages/ptask_scheduler
+[7.484s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/cmake/ptask_schedulerConfig.cmake
+[7.484s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/cmake/ptask_schedulerConfig-version.cmake
+[7.484s] -- Installing: /home/teja/ros2_humble/PTask_Scheduler/install/ptask_scheduler/share/ptask_scheduler/package.xml
+[7.500s] Invoked command in '/home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/teja/ros2_humble/PTask_Scheduler/build/ptask_scheduler
