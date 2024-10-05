@@ -22,7 +22,7 @@ Using ROS 2, this project implements a system for scheduling periodic tasks. Thi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/PTask_Scheduler.git
+   git clone https://github.com/kari-sri/PTask_Scheduler.git
    cd PTask_Scheduler
 
 
